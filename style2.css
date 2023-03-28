@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: "articulat-cf", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2em;
+
+}
+
+#mainContainer {
+  display: flex;
+  background:url(gallery1.png) top center;
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+
+}
+#cover  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0px;
+  backdrop-filter: blur(1px);
+  font-size: 1em;
+  width: 100%;
+
+}
+#cover a {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  font-size: 10em;
+
+}
+
+#content #img{
+  display: flex;
+  margin: 10vh;
+  margin: 5vw;
+  font-size: 1em;
+  background:url(米山舞.jpg);
+  background-size: cover;
+  width: 600vw;
+  height: 70vh;
+
+}
+
+#content {
+  display: flex;
+  font-size: 0.5em;
+  margin-right:5vw ;
+  line-height: 5vh;
+
+}
+
+#content a{
+  display: flex;
+  font-size: 2em;
+  margin-top: 5vh;
+
+}
+
+ #img2{
+  display: flex;
+  margin: 10vh;
+  font-size: 1em;
+  background:url(展出7.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: 80vh;
+
+}
+ #img3{
+  display: flex;
+  margin: 10vh;
+  font-size: 1em;
+  background:url(SEE.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: 80vh;
+
+}
+ #img4{
+  display: flex;
+  margin: 10vh;
+  font-size: 1em;
+  background:url(展出EGO.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: 80vh;
+
+}
+ #img5{
+  display: flex;
+  margin: 10vh;
+  font-size: 1em;
+  background:url(illume.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: 80vh;
+
+}
+ #img6{
+  display: flex;
+  margin: 10vh;
+  font-size: 1em;
+  background:url(画集.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: 80vh;
+
+}
+ #img7{
+  display: flex;
+  margin: 10vh;
+  font-size: 1em;
+  background:url(EGOID.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: 80vh;
+
+}
+#content2 {
+  display: flex;
+  font-size: 1.5em;
+  margin-top: 10vh;
+  width: 60vw;
+
+}
+#icon{
+  display: flex;
+  align-items: center;
+  height:20vh;
+  justify-content: flex-end;
+  margin-top:10vh ;
+  margin-right: 3vw;
+}
+#i1{
+
+  width: 7vw;
+  height: 10vh;
+}
